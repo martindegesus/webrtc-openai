@@ -19,7 +19,6 @@ document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
         <!-- Stylish textbox -->
         <textarea
           id="textbox"
-          placeholder="Write something here..."
         ></textarea>
       </div>
 
