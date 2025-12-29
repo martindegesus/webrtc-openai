@@ -1,0 +1,29 @@
+1248d6fddbac8ba41a335f750483c3c557a857a4:index.html[36m:[m    <title>WebRTC [1;31mOpenAI[m</title>
+1248d6fddbac8ba41a335f750483c3c557a857a4:package-lock.json[36m:[m        "@[1;31mopenai[m/agents": "^0.3.7",
+1248d6fddbac8ba41a335f750483c3c557a857a4:package-lock.json[36m:[m    "node_modules/@[1;31mopenai[m/agents": {
+1248d6fddbac8ba41a335f750483c3c557a857a4:package-lock.json[36m:[m      "resolved": "https://registry.npmjs.org/@[1;31mopenai[m/agents/-/agents-0.3.7.tgz",
+1248d6fddbac8ba41a335f750483c3c557a857a4:package-lock.json[36m:[m        "@[1;31mopenai[m/agents-core": "0.3.7",
+1248d6fddbac8ba41a335f750483c3c557a857a4:package-lock.json[36m:[m        "@[1;31mopenai[m/agents-[1;31mopenai[m": "0.3.7",
+1248d6fddbac8ba41a335f750483c3c557a857a4:package-lock.json[36m:[m        "@[1;31mopenai[m/agents-realtime": "0.3.7",
+1248d6fddbac8ba41a335f750483c3c557a857a4:package-lock.json[36m:[m        "[1;31mopenai[m": "^6"
+1248d6fddbac8ba41a335f750483c3c557a857a4:package-lock.json[36m:[m    "node_modules/@[1;31mopenai[m/agents-core": {
+1248d6fddbac8ba41a335f750483c3c557a857a4:package-lock.json[36m:[m      "resolved": "https://registry.npmjs.org/@[1;31mopenai[m/agents-core/-/agents-core-0.3.7.tgz",
+1248d6fddbac8ba41a335f750483c3c557a857a4:package-lock.json[36m:[m        "[1;31mopenai[m": "^6"
+1248d6fddbac8ba41a335f750483c3c557a857a4:package-lock.json[36m:[m    "node_modules/@[1;31mopenai[m/agents-[1;31mopenai[m": {
+1248d6fddbac8ba41a335f750483c3c557a857a4:package-lock.json[36m:[m      "resolved": "https://registry.npmjs.org/@[1;31mopenai[m/agents-[1;31mopenai[m/-/agents-[1;31mopenai[m-0.3.7.tgz",
+1248d6fddbac8ba41a335f750483c3c557a857a4:package-lock.json[36m:[m        "@[1;31mopenai[m/agents-core": "0.3.7",
+1248d6fddbac8ba41a335f750483c3c557a857a4:package-lock.json[36m:[m        "[1;31mopenai[m": "^6"
+1248d6fddbac8ba41a335f750483c3c557a857a4:package-lock.json[36m:[m    "node_modules/@[1;31mopenai[m/agents-realtime": {
+1248d6fddbac8ba41a335f750483c3c557a857a4:package-lock.json[36m:[m      "resolved": "https://registry.npmjs.org/@[1;31mopenai[m/agents-realtime/-/agents-realtime-0.3.7.tgz",
+1248d6fddbac8ba41a335f750483c3c557a857a4:package-lock.json[36m:[m        "@[1;31mopenai[m/agents-core": "0.3.7",
+1248d6fddbac8ba41a335f750483c3c557a857a4:package-lock.json[36m:[m    "node_modules/[1;31mopenai[m": {
+1248d6fddbac8ba41a335f750483c3c557a857a4:package-lock.json[36m:[m      "resolved": "https://registry.npmjs.org/[1;31mopenai[m/-/[1;31mopenai[m-6.15.0.tgz",
+1248d6fddbac8ba41a335f750483c3c557a857a4:package-lock.json[36m:[m        "[1;31mopenai[m": "bin/cli"
+1248d6fddbac8ba41a335f750483c3c557a857a4:package.json[36m:[m    "@[1;31mopenai[m/agents": "^0.3.7",
+1248d6fddbac8ba41a335f750483c3c557a857a4:src/app.js[36m:[mconst apiKey = process.env.[1;31mOPENAI[m_API_KEY;
+1248d6fddbac8ba41a335f750483c3c557a857a4:src/app.js[36m:[m            "https://api.[1;31mopenai[m.com/v1/realtime/client_secrets",
+1248d6fddbac8ba41a335f750483c3c557a857a4:src/app.js[36m:[m                    Authorization: `Bearer ${process.env.[1;31mOPENAI[m_API_KEY}`,
+1248d6fddbac8ba41a335f750483c3c557a857a4:src/main.ts[36m:[m      <h1>WebRTC [1;31mOpenAI[m Realtime API</h1>
+1248d6fddbac8ba41a335f750483c3c557a857a4:src/setup.ts[36m:[m} from '@[1;31mopenai[m/agents/realtime';
+1248d6fddbac8ba41a335f750483c3c557a857a4:src/setup.ts[36m:[m      // curl -s -X POST https://api.[1;31mopenai[m.com/v1/realtime/client_secrets -H "Authorization: Bearer $[1;31mOPENAI[m_API_KEY" -H "Content-Type: application/json" -d '{"session": {"type": "realtime", "model": "gpt-realtime"}}' | jq .value
+1248d6fddbac8ba41a335f750483c3c557a857a4:vite.config.ts[36m:[m    base: '/webrtc-[1;31mopenai[m/'
