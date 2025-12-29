@@ -46,7 +46,6 @@ Please respond again following policy. Apologize for not being able to answer th
         <!-- Stylish textbox -->
         <textarea
           id="textbox"
-          placeholder="Write something here..."
         ></textarea>
       </div>
 
